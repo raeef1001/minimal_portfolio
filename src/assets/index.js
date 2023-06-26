@@ -42,7 +42,7 @@ const project = [{
 },
 {
     name:"MERN Airbnb Clone",
-    img: "https://raeef.netlify.app/assets/airbnb-3b00caf5.png",
+    img: "https://raeef1001.netlify.app/assets/airbnb-3b00caf5.png",
     stack:["React","Nodejs","Tailwind"]
 },
 ]

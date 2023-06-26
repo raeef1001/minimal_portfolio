@@ -11,8 +11,10 @@ const Contact = () => {
 // email js section 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_1ni64zu', 'template_kqv2qal', form.current, 'CwVq_98jJte0PKovl')
+      // emailjs service 
+      // emaijs template 
+      // emaijs public id 
+    emailjs.sendForm(process.env.SERVICE , process.env.TEMPLATE, form.current, process.env.PUBLIC)
       .then((result) => {
           console.log(result.text);
            notify()
