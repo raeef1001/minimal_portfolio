@@ -16,7 +16,7 @@ const Social = () => {
                 <a className={`${nightMode ? " hover:text-[#fff] " : "hover:text-[#1C1917]"} `} target='_blank' href="https://www.linkedin.com/in/raeef1001/"><AiFillLinkedin size={40}/></a>
             </div>
             <div >
-                <h1 className='text-center'>© {date.getFullYear()} Raeefofficial. All rights reserved.</h1>
+                <h1 className='text-center pb-10'>© {date.getFullYear()} Raeefofficial. All rights reserved.</h1>
             </div>
         </div>
     );

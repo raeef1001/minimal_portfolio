@@ -6,7 +6,7 @@ import { Context } from "../App";
 const Timeline = () => {
     const nightMode = useContext(Context);
     return (
-        <div className='lg:w-[40vw] w-[80vw] max-w-[600px] mx-auto cursor-pointer'>
+        <div className='lg:w-[40vw] w-[80vw] max-w-[600px] mx-auto cursor-pointer mt-24'>
             <div className='mb-5'>
                 <h1 className={`${nightMode ? " border-[#fff] " : "border-[#1C1917]"} text-[1.5rem] font-semibold border-b-4 inline`}>Timeline</h1>
             </div >

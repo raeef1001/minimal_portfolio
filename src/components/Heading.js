@@ -12,13 +12,9 @@ const Heading = () => {
     >
       <div className="flex flex-col text-center">
         <div className="">
-         
-          <h1 className="text-[2.25rem] md:text-[4.5rem] font-bold ">
-            RAEEF
-          </h1>
+          <h1 className="text-[2.25rem] md:text-[4.5rem] font-bold ">RAEEF</h1>
         </div>
         <div>
-         
           <h2
             className={`${
               nightMode ? "text-[#D6D3D1]" : "text-[#1C1917]"
@@ -33,8 +29,12 @@ const Heading = () => {
               nightMode ? "text-[#D6D3D1]" : "text-[#1C1917]"
             } text-[.975rem]  font-bold `}
           >
-           Empowering businesses with tailored full-stack solutions, I am a dedicated indie developer ready to transform your challenges into triumphs through the power of code. From meticulous planning to captivating designs, I specialize in crafting custom-built solutions that solve real-life problems, delivering exceptional results for your success.
-          
+            Empowering businesses with tailored full-stack solutions, I am a
+            dedicated indie developer ready to transform your challenges into
+            triumphs through the power of code. From meticulous planning to
+            captivating designs, I specialize in crafting custom-built solutions
+            that solve real-life problems, delivering exceptional results for
+            your success.
           </p>
         </div>
       </div>

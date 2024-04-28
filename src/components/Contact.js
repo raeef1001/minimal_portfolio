@@ -11,10 +11,8 @@ const Contact = () => {
 // email js section 
   const sendEmail = (e) => {
     e.preventDefault();
-      // emailjs service 
-      // emaijs template 
-      // emaijs public id 
-    emailjs.sendForm(process.env.SERVICE , process.env.TEMPLATE, form.current, process.env.PUBLIC)
+
+    emailjs.sendForm('service_gs2howh', 'template_kqv2qal', form.current, 'yUouTm106zcpLSPcs')
       .then((result) => {
           console.log(result.text);
            notify()
@@ -37,7 +35,7 @@ const Contact = () => {
  
   return (
     <div>
-      <div className="md:w-[40vw] w-[80vw] max-w-[600px] mx-auto">
+      <div className="md:w-[40vw] w-[80vw] max-w-[600px] mx-auto ">
         <div className="mb-5">
           <h1  className={`${nightMode ? " border-[#fff] " : "border-[#1C1917]"} text-[1.5rem] font-semibold border-b-4 inline `}>
             Contact
